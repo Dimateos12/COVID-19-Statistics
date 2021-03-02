@@ -23,8 +23,8 @@ def wypisz(kraj):
 
             string += ("\nNowe przypadki : " +str(item['cases']['new']))
 
-            string += ("\nNowe przypadki : " + str(item['cases']['active']))
+            string += ("\nAktywne przypadki : " + str(item['cases']['active']))
 
-            string += ("\nNowe przypadki : " + str(item['cases']['recovered']))
+            string += ("\nWyzdrowieni  : " + str(item['cases']['recovered']))
 
     return string
